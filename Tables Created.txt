@@ -1,0 +1,42 @@
+REGISTER TABLE:
+CREATE TABLE register
+(
+userid varchar(255),
+name varchar(50),
+dateofbirth varchar(255),
+educationalqualification varchar(255),
+technologytraining varchar(255),
+workexperience varchar(20),
+technologychoice varchar(255),
+location varchar(50),
+time varchar(50),
+dateofexam varchar(255)
+);
+
+TESTING CENTRE TABLE:
+
+CREATE TABLE testingcenter
+(
+name varchar(50),
+date varchar(50),
+location varchar(255),
+time varchar(50),
+remainingseats varchar(10),
+totalseats varchar(10)
+);
+
+REQUEST TABLE:
+CREATE TABLE request
+(
+id varchar(50),
+date varchar(50),
+location varchar(255),
+time varchar(50),
+status varchar(255)
+);
+ADMIN TABLE:
+CREATE TABLE admin
+(
+username varchar(50),
+password varchar(255)
+);
